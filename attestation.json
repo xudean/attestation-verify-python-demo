@@ -1,0 +1,30 @@
+{
+  "recipient": "0xB12a1f7035FdCBB4cC5Fa102C01346BD45439Adf",
+  "request": {
+    "url": "https://developers.google.com/_d/profile/user?hl=zh-cn",
+    "header": "",
+    "method": "POST",
+    "body": ""
+  },
+  "reponseResolve": [
+    {
+      "keyName": "1",
+      "parseType": "",
+      "parsePath": "$[1]"
+    }
+  ],
+  "data": "{\"1\":\"xuda.it@outlook.com\"}",
+  "attConditions": "[{\"op\":\"REVEAL_STRING\",\"field\":\"$[1]\"}]",
+  "timestamp": 1752730562310,
+  "additionParams": "{\"algorithmType\":\"proxytls\"}",
+  "attestors": [
+    {
+      "attestorAddr": "0xdb736b13e2f522dbe18b2015d0291e4b193d8ef6",
+      "url": "https://primuslabs.xyz"
+    }
+  ],
+  "signatures": [
+    "0x7599eb6cd43c1f9a11cd8f505cd5330634ba296a6a550ed2a96c7cc510c74be66077ad02b2fe149b18ab6d5be0e912b4d6b8465f103327eb01b8ad069c4ec77f1b"
+  ],
+  "extendedData": "{\"1\":\"xuda.it@outlook.com\"}"
+}
