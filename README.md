@@ -10,7 +10,7 @@ This project demonstrates how to encode, sign, and verify Ethereum-style attesta
 1. **Clone the repository** (if not already):
    ```bash
    git clone https://github.com/xudean/attestation-verify-python-demo.git
-   cd attestation-verify-demo
+   cd attestation-verify-python-demo
    ```
 
 2. **Install dependencies:**
