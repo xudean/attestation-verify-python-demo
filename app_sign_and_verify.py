@@ -36,7 +36,7 @@ if __name__ == '__main__':
     # Replace with your own app secret, this key just for test: appId->0x811169961c2949e8c91e7840c5452cc4deb1942c
     private_key = "0x7e1ed873b1dae173efaf9b00b79cd6567a828cb3385ddc2d173ec161c23a3496"
     # !!!Notice: sign_params is a string not object
-    sign_params = "{\"appId\":\"0x668c71321acab7b4eb5d65f20d351cee08a3101d\",\"attTemplateID\":\"2e3160ae-8b1e-45e3-8c59-426366278b9d\",\"userAddress\":\"0xB12a1f7035FdCBB4cC5Fa102C01346BD45439Adf\",\"timestamp\":1752730452083,\"attMode\":{\"algorithmType\":\"proxytls\",\"resultType\":\"plain\"}}"
+    sign_params = "{\"appId\":\"0x811169961c2949e8c91e7840c5452cc4deb1942c\",\"attTemplateID\":\"2e3160ae-8b1e-45e3-8c59-426366278b9d\",\"userAddress\":\"0xB12a1f7035FdCBB4cC5Fa102C01346BD45439Adf\",\"timestamp\":1752730452083,\"attMode\":{\"algorithmType\":\"proxytls\",\"resultType\":\"plain\"}}"
     print("sign_params:", sign_params)
     sig = sign_message(private_key, sign_params)
     print("Signature:", "0x"+sig)
